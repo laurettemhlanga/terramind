@@ -1,8 +1,8 @@
 [**Paper**](https://arxiv.org/abs/2504.11171) 
 | [**Hugging Face**](https://huggingface.co/ibm-esa-geospatial) 
 | [**Model Code**](https://github.com/IBM/terratorch/tree/main/terratorch/models/backbones/terramind) 
-| [**ESA Blog**](todo)
-| [**IBM Blog**](todo)
+| [**ESA Blog**](https://www.esa.int/Applications/Observing_the_Earth/ESA_and_IBM_collaborate_on_TerraMind)
+| [**IBM Blog**](https://research.ibm.com/blog/terramind-esa-earth-observation-model)
 
 # TerraMind 1.0
 
@@ -22,8 +22,7 @@ Download or clone this repo and create a new environment with the latest version
 python -m venv venv # use python 3.10 or higher
 source venv/bin/activate
 pip install --upgrade pip
-pip uninstall terratorch
-pip install git+https://github.com/IBM/terratorch.git@terramind 
+!pip install terratorch==1.0.1 
 pip install jupyter gdown tensorboard # required for notebook examples
 pip install diffusers>=0.30.0  # required for TerraMind generations
 ```
