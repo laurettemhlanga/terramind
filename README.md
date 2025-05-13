@@ -3,6 +3,7 @@
 | [**Model Code**](https://github.com/IBM/terratorch/tree/main/terratorch/models/backbones/terramind) 
 | [**ESA Blog**](https://www.esa.int/Applications/Observing_the_Earth/ESA_and_IBM_collaborate_on_TerraMind)
 | [**IBM Blog**](https://research.ibm.com/blog/terramind-esa-earth-observation-model)
+| [**Challenge**](https://huggingface.co/spaces/ibm-esa-geospatial/challenge)
 
 # TerraMind 1.0
 
@@ -86,6 +87,9 @@ We provide some examples images from the TerraMesh validation split in [examples
 TerraMind uses six tokenizer for pre-training and generation. 
 We provide some example code for using the tokenizer in [terramind_tokenizer_reconstruction.ipynb](notebooks%2Fterramind_tokenizer_reconstruction.ipynb).
 
+## Challenge
+
+Already working with TerraMind? Submit your use case to the [TerraMind Blue-Sky Challenge](https://huggingface.co/spaces/ibm-esa-geospatial/challenge), a bi-monthly award spotlighting the boldest, most imaginative ways using TerraMind.
 
 ## Citation
 
