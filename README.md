@@ -7,7 +7,7 @@
 
 # TerraMind 1.0
 
-TerraMind is the first any-to-any generative foundation model for Earth Observation, build by IBM, ESA, and the FAST-EO project.
+TerraMind is the first any-to-any generative foundation model for Earth Observation, build by IBM, ESA Φ-lab, and the FAST-EO project.
 We pre-trained a [base version](https://huggingface.co/ibm-esa-geospatial/TerraMind-1.0-base) and a [large version](https://huggingface.co/ibm-esa-geospatial/TerraMind-1.0-large) of TerraMind, both open-sourced on HuggingFace. 
 The models are fully integrated into the fine-tuning toolkit [TerraTorch](https://ibm.github.io/terratorch/).
 
